@@ -2,77 +2,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://example.com/posts/firstpost/</loc>
+    <loc>https://example.com/7thsea-srd/posts/firstpost/</loc>
     <lastmod>2018-05-01</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/secondpost/</loc>
+    <loc>https://example.com/7thsea-srd/posts/secondpost/</loc>
     <lastmod>2018-07-04</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/thirdpost/</loc>
+    <loc>https://example.com/7thsea-srd/posts/thirdpost/</loc>
     <lastmod>2018-08-24</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/fourthpost/</loc>
+    <loc>https://example.com/7thsea-srd/posts/fourthpost/</loc>
     <lastmod>2018-09-30</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/about/</loc>
+    <loc>https://example.com/7thsea-srd/about/</loc>
     <lastmod>2021-02-19</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/</loc>
+    <loc>https://example.com/7thsea-srd/posts/</loc>
     <lastmod>2021-02-19</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://example.com/7thsea-srd/</loc>
     <lastmod>2021-02-19</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/knacks/architecture/</loc>
+    <loc>https://example.com/7thsea-srd/knacks/architecture/</loc>
     <lastmod>2021-02-19</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/page-list/</loc>
+    <loc>https://example.com/7thsea-srd/page-list/</loc>
     <lastmod>2021-02-19</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/skills/arson/</loc>
+    <loc>https://example.com/7thsea-srd/skills/arson/</loc>
     <lastmod>2021-02-19</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/skills/</loc>
+    <loc>https://example.com/7thsea-srd/skills/</loc>
     <lastmod>2021-02-19</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://example.com/7thsea-srd/tags/</loc>
     <lastmod>2021-02-19</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/another-tag/</loc>
+    <loc>https://example.com/7thsea-srd/tags/another-tag/</loc>
     <lastmod>2021-02-19</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/second-tag/</loc>
+    <loc>https://example.com/7thsea-srd/tags/second-tag/</loc>
     <lastmod>2021-02-19</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/number-2/</loc>
+    <loc>https://example.com/7thsea-srd/tags/number-2/</loc>
     <lastmod>2021-02-19</lastmod>
   </url>
 </urlset>
