@@ -26,23 +26,4 @@ jobs:
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: dist # The folder the action should deploy.
           CLEAN: true # Automatically remove deleted files from the deploy branch
-#jobs:
-#  build_deploy:
-#    runs-on: ubuntu-18.04
-#    steps:
-#      - name: Checkout
-#        uses: actions/checkout@v2
-#      - name: Setup node
-#        uses: actions/setup-node@v1
-#        with:
-#          node-version: '13.5.0'
-#      - name: Install npm packages
-#        run: npm ci
-#      - name: Build
-#        run: npm run build
-#      - name: Deploy
-#        uses: peaceiris/actions-gh-pages@v2
-#        env:
-#          PUBLISH_DIR: _site
-#          PUBLISH_BRANCH: gh-pages
-#          ACTIONS_DEPLOY_KEY: ${{ secrets.GHA_DEPLOY_KEY }}
+

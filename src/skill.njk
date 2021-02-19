@@ -1,4 +1,5 @@
 ---
+layout: layouts/home.njk
 pagination:
   data: skills
   size: 1
@@ -15,21 +16,14 @@ permalink: "skills/{{ skill.title | slug }}/"
 
 <h3>knacks:</h3>
 
-
-{#  {{ knacks | console }}#}
-
-
-
 <ul>
   {% for knack in knacks %}
-    {% for isSkill, knackType in knack.skills %}
-      {% if (isSkill == skill.title) %}
-        <li class="{{ knackType }}">
-          <a href="/knacks/{{ knack.title | slug }}/">{{ knack.title }}</a>
+      {% if knack.skills[skill.title] %} <!-- if === 'advance' or 'base' -->
+        <li class="{{ knack.skills[skill.title]  }}">
+          {% set knackUrl = '/knacks/' + knack.title %}
+          <a href="{{ knackUrl | url }}/">{{ knack.title }} {{ knack.skills[skill.title]  }}</a>
           <p>{{ knack.description }}</p>
         </li>
-
       {% endif %}
-    {% endfor %}
   {% endfor %}
 </ul>

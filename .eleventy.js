@@ -15,7 +15,7 @@ async function imageShortcode(src, alt, sizes) {
     widths: [300, 600],
     formats: ["avif", "webp", "jpeg"],
     urlPath: "/img/",
-    outputDir: "./_site/img",
+    outputDir: "./dist/img",
   });
 
   let imageAttributes = {
@@ -110,7 +110,7 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addPassthroughCopy("src/img");
-  eleventyConfig.addPassthroughCopy("src/css");
+  // eleventyConfig.addPassthroughCopy("src/css");
 
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({

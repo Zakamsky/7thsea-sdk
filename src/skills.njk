@@ -10,6 +10,7 @@ eleventyNavigation:
 
 <ul>
   {% for skill in skills %}
-    <li><a href="{{ '/skills/' + skill.title | slug}}">{{ skill.title }}</a></li>
+{#    {% set skillUrl = '/skills/' + skill.title %}#}
+    <li><a href="{{ skill.title | slug }}">{{ skill.title }}</a></li>
   {%  endfor %}
 </ul>
