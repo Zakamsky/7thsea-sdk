@@ -1,0 +1,15 @@
+---
+layout: layouts/home.njk
+permalink: /skills/
+eleventyNavigation:
+  key: Skills
+  order: 2
+---
+
+<h1>Skills</h1>
+
+<ul>
+  {% for skill in skills %}
+    <li><a href="{{ '/skills/' + skill.title | slug}}">{{ skill.title }}</a></li>
+  {%  endfor %}
+</ul>
