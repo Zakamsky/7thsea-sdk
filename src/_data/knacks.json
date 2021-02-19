@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Architecture",
+    "description": "some text",
+    "skills": {
+      "Engineer": "base",
+      "Arson": "advance",
+      "Merchant": "advance"
+    }
+  },
+  {
+    "title": "Alert",
+    "description": "some oter text",
+    "skills": {
+      "Guard": "base",
+      "Sailor": "base",
+      "Merchant": "advance"
+    }
+  },
+  {
+    "title": "Perception",
+    "description": "some oter text",
+    "skills": {
+      "Engineer": "base",
+      "Sailor": "base",
+      "Merchant": "advance"
+    }
+  }
+]

@@ -5,16 +5,62 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const pluginSass = require("eleventy-plugin-sass");
+// const pluginRss = require("@11ty/eleventy-plugin-rss");
+const Image = require("@11ty/eleventy-img");
+const util = require('util'); // for debug output "console" filter only
+
+async function imageShortcode(src, alt, sizes) {
+  let metadata = await Image(src, {
+    widths: [300, 600],
+    formats: ["avif", "webp", "jpeg"],
+    urlPath: "/img/",
+    outputDir: "./_site/img",
+  });
+
+  let imageAttributes = {
+    alt,
+    sizes,
+    loading: "lazy",
+    decoding: "async",
+  };
+
+  // You bet we throw an error on missing alt in `imageAttributes` (alt="" works okay)
+  return Image.generateHTML(metadata, imageAttributes);
+}
+
+const sassPluginOptions = {
+  watch: ['src/**/*.{scss,sass}', '!node_modules/**'],
+  sourcemaps: true,
+  cleanCSS: true,
+  cleanCSSOptions: {},
+  autoprefixer: [
+    "last 2 version",
+    "> 1%",
+    "IE 11"
+  ],
+  outputDir: 'dist',
+  remap: false
+};
+
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
-
+  eleventyConfig.addPlugin(pluginSass, sassPluginOptions);
   eleventyConfig.setDataDeepMerge(true);
+  eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
+  eleventyConfig.addLiquidShortcode("image", imageShortcode);
+  eleventyConfig.addJavaScriptFunction("image", imageShortcode);
+
+  // filter for debugging:
+  eleventyConfig.addFilter('console', function(value) {
+    return util.inspect(value);
+  });
 
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
-  eleventyConfig.addLayoutAlias("skills", "layouts/post.njk");
+  // eleventyConfig.addLayoutAlias("skills", "layouts/post.njk");
 
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
@@ -63,8 +109,8 @@ module.exports = function(eleventyConfig) {
     return [...tagSet];
   });
 
-  eleventyConfig.addPassthroughCopy("img");
-  eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("src/img");
+  eleventyConfig.addPassthroughCopy("src/css");
 
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({
@@ -82,7 +128,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {
       ready: function(err, browserSync) {
-        const content_404 = fs.readFileSync('_site/404.html');
+        const content_404 = fs.readFileSync('dist/404.html');
 
         browserSync.addMiddleware("*", (req, res) => {
           // Provides the 404 content without redirect.
@@ -119,10 +165,10 @@ module.exports = function(eleventyConfig) {
 
     // These are all optional, defaults are shown:
     dir: {
-      input: ".",
+      input: "src",
       includes: "_includes",
       data: "_data",
-      output: "_site"
+      output: "dist"
     }
   };
 };

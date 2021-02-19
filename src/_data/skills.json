@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Arson",
+    "type": "civil",
+    "description": "some text",
+    "origin": "RI 82"
+  },
+  {
+    "title": "Guard",
+    "type": "civil",
+    "description": "some text",
+    "origin": "RI 82"
+  },
+  {
+    "title": "Sailor",
+    "type": "civil",
+    "description": "some text",
+    "origin": "RI 82"
+  }
+]

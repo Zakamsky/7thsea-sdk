@@ -1,0 +1,35 @@
+---
+pagination:
+  data: skills
+  size: 1
+  alias: skill
+permalink: "skills/{{ skill.title | slug }}/"
+---
+
+<h1>{{ skill.title }}</h1>
+<br>
+{{ skill.type }} - {{ skill.origin }}
+<br>
+{{ skill.description }}
+
+
+<h3>knacks:</h3>
+
+
+{#  {{ knacks | console }}#}
+
+
+
+<ul>
+  {% for knack in knacks %}
+    {% for isSkill, knackType in knack.skills %}
+      {% if (isSkill == skill.title) %}
+        <li class="{{ knackType }}">
+          <a href="/knaks/{{ knack.title | slug }}/">{{ knack.title }}</a>
+          <p>{{ knack.description }}</p>
+        </li>
+
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</ul>
