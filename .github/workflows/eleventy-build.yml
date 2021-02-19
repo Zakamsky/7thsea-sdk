@@ -45,4 +45,4 @@ jobs:
 #        env:
 #          PUBLISH_DIR: _site
 #          PUBLISH_BRANCH: gh-pages
-#          ACTIONS_DEPLOY_KEY: ${{ secrets.GHA_DEPLOY_KEY }}
+#          ACTIONS_DEPLOY_KEY: ${{ secrets.SEA_SRD_deploy_token }}
