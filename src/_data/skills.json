@@ -1,5 +1,255 @@
 [
   {
+    "title": "Archer",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 151"
+    ]
+  },
+  {
+    "title": "Athlete",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 152"
+    ]
+  },
+  {
+    "title": "Blowpipe",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "CJE 91"
+    ]
+  },
+  {
+    "title": "Bodyguard",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "SH 93"
+    ]
+  },
+  {
+    "title": "Buckler",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 152"
+    ]
+  },
+  {
+    "title": "Captain",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PN 99",
+      "WOB 106"
+    ]
+  },
+  {
+    "title": "Chain",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "CJE 90"
+    ]
+  },
+  {
+    "title": "Cloak",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "CA 95"
+    ]
+  },
+  {
+    "title": "Commander",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 153"
+    ]
+  },
+  {
+    "title": "Crossbow",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 153"
+    ]
+  },
+  {
+    "title": "Dirty Fighting",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 154"
+    ]
+  },
+  {
+    "title": "Exotic Thrown Weapons",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "CJE 91"
+    ]
+  },
+  {
+    "title": "Exotic Paired Weapons",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "CJE 91"
+    ]
+  },
+  {
+    "title": "Fencing",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 154"
+    ]
+  },
+  {
+    "title": "Firearms",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 155"
+    ]
+  },
+  {
+    "title": "Hard Martial Arts",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "CJE 88"
+    ]
+  },
+  {
+    "title": "Heavy Weapon",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 155"
+    ]
+  },
+  {
+    "title": "Hand Axe",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "US 96"
+    ]
+  },
+  {
+    "title": "Knife",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 155"
+    ]
+  },
+  {
+    "title": "Panzerhand",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 156"
+    ]
+  },
+  {
+    "title": "Polearm",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 156"
+    ]
+  },
+  {
+    "title": "Pugilism",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 156"
+    ]
+  },
+  {
+    "title": "Rider",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 156"
+    ]
+  },
+  {
+    "title": "Sentry",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "SH 94"
+    ]
+  },
+  {
+    "title": "Shield",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "US 96"
+    ]
+  },
+  {
+    "title": "Sling",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "CE 74"
+    ]
+  },
+  {
+    "title": "Soft Martial Arts",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "CJE 89"
+    ]
+  },
+  {
+    "title": "Staff",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "CJE 89"
+    ]
+  },
+  {
+    "title": "Westling",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 157"
+    ]
+  },
+  {
+    "title": "Waylay",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "LV 81"
+    ]
+  },
+  {
+    "title": "Whip",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "CA 95"
+    ]
+  },
+
+  {
     "title": "Arson",
     "type": "civil",
     "description": "some text",

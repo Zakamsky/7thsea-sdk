@@ -14,6 +14,6 @@ permalink: "knacks/{{ knack.title | slug }}/"
 <ul>
 {% for skill, knackType in knack.skills  %}
   {% set skillUrl = '/skills/' + skill %}
-<li><a href="{{ skillUrl | url }}/">{{ skill }}{% if knackType === "advance" %}*{% endif %}</a></li>
+<li><a href="{{ skillUrl | url | lower }}/">{{ skill }}{% if knackType === "advance" %}*{% endif %}</a></li>
 {% endfor %}
 </ul>
