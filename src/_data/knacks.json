@@ -1,29 +1,100 @@
 [
   {
-    "title": "Architecture",
+    "title": "Accounting",
     "description": "some text",
+    "origin": ["CA 93", "CJE 79", "PG 138", "PG 142"],
     "skills": {
-      "Engineer": "base",
+      "Engineer": "advance",
+      "Gwai Liao": "advance",
+      "Merchant": "advance",
+      "Servant": "advance"
+
+    }
+  },
+  {
+    "title": "Acting",
+    "description": "some other text",
+    "skills": {
+      "Courtesan": "base",
+      "Performer": "base"
+    }
+  },
+  {
+    "title": "Acupuncture",
+    "description": "some other text",
+    "skills": {
+      "Cao Yao": "advance"
+    }
+  },
+  {
+    "title": "Ambush",
+    "description": "some other text",
+    "skills": {
+      "Bodyguard": "advance",
+      "Captain": "advance",
+      "Commander": "advance",
+      "Criminal": "advance",
+      "Guide": "advance",
+      "Hunter": "advance",
+      "Riverboat Pilot": "advance",
+      "Sentry": "advance",
+      "Waylay": "advance"
+    }
+  },
+  {
+    "title": "Animal Training",
+    "description": "some other text",
+    "skills": {
+      "Falconer": "advance",
+      "Hunter": "advance",
+      "Performer": "advance",
+      "Rider": "advance"
+    }
+  },
+  {
+    "title": "Apothecary",
+    "description": "some other text",
+    "skills": {
+      "Merchant": "base"
+    }
+  },
+  {
+    "title": "Appraising",
+    "description": "some other text",
+    "skills": {
+      "Fence": "base",
+      "Merchant": "advance"
+    }
+  },
+  {
+    "title": "Architecture",
+    "description": "some other text",
+    "skills": {
       "Arson": "advance",
-      "Merchant": "advance"
-    }
-  },
-  {
-    "title": "Alert",
-    "description": "some other text",
-    "skills": {
-      "Guard": "base",
-      "Sailor": "base",
-      "Merchant": "advance"
-    }
-  },
-  {
-    "title": "Perception",
-    "description": "some other text",
-    "skills": {
       "Engineer": "base",
-      "Sailor": "base",
       "Merchant": "advance"
+    }
+  },
+  {
+    "title": "Artifact Evaluation",
+    "description": "some other text",
+    "skills": {
+      "Archaeologist": "advance"
+    }
+  },
+  {
+    "title": "Artillery",
+    "description": "some other text",
+    "skills": {
+      "Commander": "advance"
+    }
+  },
+  {
+    "title": "Astronomy",
+    "description": "some other text",
+    "skills": {
+      "Feng Shui Shi": "advance",
+      "Scholar": "advance"
     }
   }
 ]
