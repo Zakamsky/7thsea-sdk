@@ -256,22 +256,16 @@
     "origin": ["US 93"]
   },
   {
-    "title": "Archaeologist",
-    "type": "civil",
-    "description": "some text",
-    "origin": ["AH 60"]
-  },
-  {
-    "title": "Arson",
-    "type": "civil",
-    "description": "some text",
-    "origin": ["RI 82"]
-  },
-  {
     "title": "Alchemy",
     "type": "civil",
     "description": "some text",
     "origin": ["SD 84"]
+  },
+  {
+    "title": "Archaeologist",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["AH 60"]
   },
   {
     "title": "Arson",
