@@ -23,56 +23,61 @@
   
   <url>
     <loc>https://example.com/7thsea-srd/about/</loc>
-    <lastmod>2021-02-20</lastmod>
+    <lastmod>2021-02-21</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/7thsea-srd/knacks/</loc>
+    <lastmod>2021-02-21</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/7thsea-srd/posts/</loc>
-    <lastmod>2021-02-20</lastmod>
+    <lastmod>2021-02-21</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/7thsea-srd/</loc>
-    <lastmod>2021-02-20</lastmod>
+    <lastmod>2021-02-21</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/7thsea-srd/knacks/accounting/</loc>
-    <lastmod>2021-02-20</lastmod>
+    <lastmod>2021-02-21</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/7thsea-srd/page-list/</loc>
-    <lastmod>2021-02-20</lastmod>
+    <lastmod>2021-02-21</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/7thsea-srd/skills/archer/</loc>
-    <lastmod>2021-02-20</lastmod>
+    <lastmod>2021-02-21</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/7thsea-srd/skills/</loc>
-    <lastmod>2021-02-20</lastmod>
+    <lastmod>2021-02-21</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/7thsea-srd/tags/</loc>
-    <lastmod>2021-02-20</lastmod>
+    <lastmod>2021-02-21</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/7thsea-srd/tags/another-tag/</loc>
-    <lastmod>2021-02-20</lastmod>
+    <lastmod>2021-02-21</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/7thsea-srd/tags/second-tag/</loc>
-    <lastmod>2021-02-20</lastmod>
+    <lastmod>2021-02-21</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/7thsea-srd/tags/number-2/</loc>
-    <lastmod>2021-02-20</lastmod>
+    <lastmod>2021-02-21</lastmod>
   </url>
 </urlset>
