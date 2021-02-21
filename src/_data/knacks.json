@@ -23,7 +23,7 @@
     "title": "Acupuncture",
     "description": "some other text",
     "skills": {
-      "Cao Yao": "advance"
+      "Cao Yao (Healer)": "advance"
     }
   },
   {
@@ -96,5 +96,467 @@
       "Feng Shui Shi": "advance",
       "Scholar": "advance"
     }
+  },
+  {
+    "title": "Attack (Blowpipe)",
+    "description": "some other text",
+    "skills": {
+      "Blowpipe": "base"
+    }
+  },
+  {
+    "title": "Attack (Bow)",
+    "description": "some other text",
+    "skills": {
+      "Bow": "base"
+    }
+  },
+  {
+    "title": "Attack (Buckler)",
+    "description": "some other text",
+    "skills": {
+      "Buckler": "advance"
+    }
+  },
+  {
+    "title": "Attack (Chain)",
+    "description": "some other text",
+    "skills": {
+      "Chain": "base"
+    }
+  },
+  {
+    "title": "Attack (Crossbow)",
+    "description": "some other text",
+    "skills": {
+      "Crossbow": "base"
+    }
+  },
+  {
+    "title": "Attack (Dirty Fighting)",
+    "description": "some other text",
+    "skills": {
+      "Dirty Fighting": "base"
+    }
+  },
+  {
+    "title": "Attack (Exotic Paired Weapon)",
+    "description": "some other text",
+    "skills": {
+      "Exotic Paired Weapon": "base"
+    }
+  },
+  {
+    "title": "Attack (Fencing)",
+    "description": "some other text",
+    "skills": {
+      "Fencing": "base"
+    }
+  },
+  {
+    "title": "Attack (Firearms)",
+    "description": "some other text",
+    "skills": {
+      "Firearms": "base"
+    }
+  },
+  {
+    "title": "Attack (Hand Axe)",
+    "description": "some other text",
+    "skills": {
+      "Hand Axe": "base"
+    }
+  },
+  {
+    "title": "Attack (Hard Martial Arts)",
+    "description": "some other text",
+    "skills": {
+      "Hard Martial Arts": "base"
+    }
+  },
+  {
+    "title": "Attack (Heavy Weapon)",
+    "description": "some other text",
+    "skills": {
+      "Heavy Weapon": "base"
+    }
+  },
+  {
+    "title": "Attack (Improvised Weapon)",
+    "description": "some other text",
+    "skills": {
+      "Dirty Fighting": "advance"
+    }
+  },
+  {
+    "title": "Attack (Knife)",
+    "description": "some other text",
+    "skills": {
+      "Knife": "base"
+    }
+  },
+  {
+    "title": "Attack (Panzerhand)",
+    "description": "some other text",
+    "skills": {
+      "Panzerhand": "base"
+    }
+  },
+  {
+    "title": "Attack (Polearm)",
+    "description": "some other text",
+    "skills": {
+      "Polearm": "base"
+    }
+  },
+  {
+    "title": "Attack (Pugilism)",
+    "description": "some other text",
+    "skills": {
+      "Pugilism": "base"
+    }
+  },
+  {
+    "title": "Attack (Shield)",
+    "description": "some other text",
+    "skills": {
+      "Shield": "advance"
+    }
+  },
+  {
+    "title": "Attack (Sling)",
+    "description": "some other text",
+    "skills": {
+      "Sling": "base"
+    }
+  },
+  {
+    "title": "Attack (Staff)",
+    "description": "some other text",
+    "skills": {
+      "Staff": "base"
+    }
+  },
+  {
+    "title": "Attack (Whip)",
+    "description": "some other text",
+    "skills": {
+      "Whip": "base"
+    }
+  },
+  {
+    "title": "Baker",
+    "description": "some other text",
+    "skills": {
+      "Merchant": "base"
+    }
+  },
+  {
+    "title": "Balance",
+    "description": "some other text",
+    "skills": {
+      "Acrobat": "base",
+      "Hard Martial Arts": "base",
+      "Riverboat Pilot": "base",
+      "Sailor": "base",
+      "Soft Martial Arts": "base",
+      "Whaler": "base"
+    }
+  },
+  {
+    "title": "Balancing",
+    "description": "some other text",
+    "skills": {
+      "Acrobat": "advance"
+    }
+  },
+  {
+    "title": "Barber",
+    "description": "some other text",
+    "skills": {
+      "Merchant": "base"
+    }
+  },
+  {
+    "title": "Bartending",
+    "description": "some other text",
+    "skills": {
+      "Merchant": "advance"
+    }
+  },
+  {
+    "title": "Bear Hug",
+    "description": "some other text",
+    "skills": {
+      "Wrestling": "advance"
+    }
+  },
+  {
+    "title": "Bind (Chain)",
+    "description": "some other text",
+    "skills": {
+      "Chain": "advance"
+    }
+  },
+  {
+    "title": "Bird Handling",
+    "description": "some other text",
+    "skills": {
+      "Falconer": "base"
+    }
+  },
+  {
+    "title": "Blacksmith",
+    "description": "some other text",
+    "skills": {
+      "Bomb-making": "base",
+      "Merchant": "base"
+    }
+  },
+  {
+    "title": "Block",
+    "description": "some other text",
+    "skills": {
+      "Hard Martial Arts": "base",
+      "Soft Martial Arts": "base"
+    }
+  },
+  {
+    "title": "Bones",
+    "description": "some other text",
+    "skills": {
+      "Fortune Telling": "advance"
+    }
+  },
+  {
+    "title": "Break",
+    "description": "some other text",
+    "skills": {
+      "Wrestling": "advance"
+    }
+  },
+  {
+    "title": "Break Fall",
+    "description": "some other text",
+    "skills": {
+      "Acrobat": "advance",
+      "Athlete": "advance",
+      "Hard Martial Arts": "advance",
+      "Soft Martial Arts": "advance"
+    }
+  },
+  {
+    "title": "Brewer",
+    "description": "some other text",
+    "skills": {
+      "Merchant": "base"
+    }
+  },
+  {
+    "title": "Bribery",
+    "description": "some other text",
+    "skills": {
+      "Captain": "advance",
+      "Riverboat Pilot": "advance",
+      "Spy": "advance"
+    }
+  },
+  {
+    "title": "Butcher",
+    "description": "some other text",
+    "skills": {
+      "Merchant": "base"
+    }
+  },
+  {
+    "title": "Calculus",
+    "description": "Your rank in this skill may not exceed your Mathematics\nrank. Non-Crescent characters cannot start with a rank in\nthis knack.",
+    "skills": {
+      "Scholar": "base"
+    }
+  },
+  {
+    "title": "Calligrapher",
+    "description": "some other text",
+    "skills": {
+      "Forger": "base",
+      "Merchant": "base",
+      "Monk": "base",
+      "Rahib": "base"
+    }
+  },
+  {
+    "title": "Camouflage",
+    "description": "some other text",
+    "skills": {
+      "Waylay": "advance"
+    }
+  },
+  {
+    "title": "Cannonsmithing",
+    "description": "some other text",
+    "skills": {
+      "Engineer": "advance"
+    }
+  },
+  {
+    "title": "Card Reading",
+    "description": "some other text",
+    "skills": {
+      "Fortune Telling": "advance"
+    }
+  },
+  {
+    "title": "Carpenter",
+    "description": "some other text",
+    "skills": {
+      "Merchant": "base"
+    }
+  },
+  {
+    "title": "Cartography",
+    "description": "some other text",
+    "skills": {
+      "Arson": "advance",
+      "Captain": "advance",
+      "Commander": "advance",
+      "Feng Shui Shi": "advance",
+      "Guide": "advance",
+      "Riverboat Pilot": "advance",
+      "Sailor": "advance"
+    }
+  },
+  {
+    "title": "Cavalry Attack",
+    "description": "some other text",
+    "skills": {
+      "Fencing": "advance"
+    }
+  },
+  {
+    "title": "Ceramics",
+    "description": "some other text",
+    "skills": {
+      "Merchant": "base"
+    }
+  },
+  {
+    "title": "Chandler",
+    "description": "some other text",
+    "skills": {
+      "Merchant": "base"
+    }
+  },
+  {
+    "title": "Chanting",
+    "description": "some other text",
+    "skills": {
+      "Feng Shui Shi": "base",
+      "Rahib": "base"
+    }
+  },
+  {
+    "title": "Cheating",
+    "description": "some other text",
+    "skills": {
+      "Criminal": "advance"
+    }
+  },
+  {
+    "title": "Circus",
+    "description": "some other text",
+    "skills": {
+      "Acrobat": "advance",
+      "Performer": "advance"
+    }
+  },
+  {
+    "title": "Climbing",
+    "description": "some other text",
+    "skills": {
+      "Athlete": "base",
+      "Guide": "base",
+      "Sailor": "base"
+    }
+  },
+  {
+    "title": "Cobbler",
+    "description": "some other text",
+    "skills": {
+      "Merchant": "base"
+    }
+  },
+  {
+    "title": "Cold Read",
+    "description": "some other text",
+    "skills": {
+      "Bodyguard": "advance",
+      "Courtesan": "advance",
+      "Fortune Telling": "advance",
+      "Missionary": "advance",
+      "Performer": "advance",
+      "Shirbaz": "advance",
+      "Teacher": "advance"
+    }
+  },
+  {
+    "title": "Composer",
+    "description": "some other text",
+    "skills": {
+      "Merchant": "Artist"
+    }
+  },
+  {
+    "title": "Compounds",
+    "description": "some other text",
+    "skills": {
+      "Cao Yao (Healer)": "advance",
+      "Herbalist": "advance",
+      "Medicine Man": "advance",
+      "Monk": "advance"
+    }
+  },
+  {
+    "title": "Conceal",
+    "description": "some other text",
+    "skills": {
+      "Arson": "advance",
+      "Bodyguard": "advance",
+      "Courtesan": "advance",
+      "Forger": "advance",
+      "Spy": "advance",
+      "Urchin": "advance"
+    }
+  },
+  {
+    "title": "Confectioner",
+    "description": "some other text",
+    "skills": {
+      "Merchant": "base"
+    }
+  },
+  {
+    "title": "Contortion",
+    "description": "some other text",
+    "skills": {
+      "Acrobat": "advance"
+    }
+  },
+
+
+  {
+    "title": "dd",
+    "description": "some other text",
+    "skills": {
+      "--": "base"
+    }
+  },
+  {
+    "title": "ddd",
+    "description": "some other text",
+    "skills": {
+      "--": "advance"
+    }
   }
+
 ]

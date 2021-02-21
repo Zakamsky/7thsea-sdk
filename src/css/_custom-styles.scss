@@ -1,0 +1,44 @@
+.sortbar{
+  display: flex;
+  flex-wrap: wrap;
+  &__title{
+    width: 100%;
+    flex: 0 0 100%;
+  }
+  &__btn{
+    color: var( --gray);
+    display: block;
+    padding: .3em .75em;
+    margin: 0 .5em;
+    font-size: 12px;
+    border: 1px solid currentColor;
+    border-radius: .3em;
+    &.--hide-knacks{
+      margin-left: auto;
+    }
+  }
+  [type="radio"].--martial:checked ~ & &__btn.--martial,
+  [type="radio"].--civil:checked ~ & &__btn.--civil,
+  [type="radio"].--alphabet:checked ~ & &__btn.--alphabet,
+  [type="checkbox"].--hide-knacks:checked ~ & &__btn.--hide-knacks{
+    font-weight: bold;
+    color: var( --darkgray);
+  }
+}
+
+.skill-list{
+  display: flex;
+  flex-direction: column;
+  &__item{
+    order: 0;
+  }
+  [type="radio"].--martial:checked ~ & &__item.--martial{
+    order: -1;
+  }
+  [type="radio"].--civil:checked ~ & &__item.--civil{
+    order: -1;
+  }
+  [type="checkbox"].--hide-knacks:checked ~ & &__item .skill-knacks{
+    display: none;
+  }
+}

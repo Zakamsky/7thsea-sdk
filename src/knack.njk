@@ -13,7 +13,9 @@ permalink: "knacks/{{ knack.title | slug }}/"
 <h3>skills:</h3>
 <ul>
 {% for skill, knackType in knack.skills  %}
-  {% set skillUrl = '/skills/' + skill %}
-<li><a href="{{ skillUrl | url | lower }}/">{{ skill }}{% if knackType === "advance" %}*{% endif %}</a></li>
+  {% set skillUrl = '/skills/' + skill | lower | replace(" ", "-") %}
+<li><a href="{{ skillUrl | url  }}/">{{ skill }}{% if knackType === "advance" %}*{% endif %}</a></li>
 {% endfor %}
 </ul>
+
+<a href="{{ '/knacks/' | url }}">All knacks</a>
