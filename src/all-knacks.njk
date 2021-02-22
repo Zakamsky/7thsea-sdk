@@ -1,0 +1,20 @@
+---
+layout: layouts/home.njk
+permalink: /knacks/
+eleventyNavigation:
+  key: Knacks
+  order: 3
+---
+
+<ul>
+  {% for knack in knacks %}
+{#    {% if knack.skills[skill.title] %} <!-- if === 'advance' or 'base' -->#}
+      <li class="">
+        {% set knackUrl = '/knacks/' + knack.title %}
+        <a href="{{ knackUrl | url | lower }}/">{{ knack.title }} {{ knack.skills[skill.title]  }}</a>
+        <p>{{ knack.description }}</p>
+
+      </li>
+{#    {% endif %}#}
+  {% endfor %}
+</ul>

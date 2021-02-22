@@ -5,12 +5,58 @@ eleventyNavigation:
   key: Skills
   order: 2
 ---
+<input hidden class="sort-input --martial" type="radio" name="skill-sort" id="martial">
+<input hidden class="sort-input --civil" type="radio" name="skill-sort" id="civil">
+<input hidden class="sort-input --alphabet" type="radio" name="skill-sort" id="alphabet" checked>
+<input hidden class="sort-input --hide-knacks" type="checkbox" name="hide-knacks" id="hide-knacks">
+
 
 <h1>Skills</h1>
+<div class="sortbar">
+  <p class="sortbar__title">Sort:</p>
+  <label class="sortbar__btn --martial" for="martial">Martial</label>
+  <label class="sortbar__btn --civil" for="civil">Civil</label>
+  <label class="sortbar__btn --alphabet" for="alphabet">Alphabet</label>
+  <label class="sortbar__btn --hide-knacks" for="hide-knacks">Hide knacks</label>
+</div>
 
-<ul>
-  {% for skill in skills %}
+
+
+<ul class="skill-list">
+  {% for skill in skills | sort(false, false, 'title') %}
 {#    {% set skillUrl = '/skills/' + skill.title %}#}
-    <li><a href="{{ skill.title | slug }}">{{ skill.title }}</a></li>
+    <li class="skill-list__item --{{ skill.type }}">
+      <a href="{{ skill.title | slug }}">{{ skill.title }}</a>
+      <div class="skill-knacks">
+        <div class="skill-knacks__base">
+          <p>Base knacks:</p>
+          <ul>
+            {% for knack in knacks %}
+              {% if knack.skills[skill.title] == "base" %} <!-- if === 'advance' or 'base' -->
+                <li class="{{ knack.skills[skill.title]  }}">
+                  {% set knackUrl = '/knacks/' + knack.title %}
+                  <a href="{{ knackUrl | url | lower }}/">{{ knack.title }} {#{{ knack.skills[skill.title]  }}#}</a>
+                  {#          <p>{{ knack.description }}</p>#}
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="skill-knacks__advance">
+          <p>Advance knacks:</p>
+          <ul>
+            {% for knack in knacks %}
+              {% if knack.skills[skill.title] == "advance" %} <!-- if === 'advance' or 'base' -->
+                <li class="{{ knack.skills[skill.title]  }}">
+                  {% set knackUrl = '/knacks/' + knack.title %}
+                  <a href="{{ knackUrl | url | lower }}/">{{ knack.title }} {#{{ knack.skills[skill.title]  }}#}</a>
+                  {#          <p>{{ knack.description }}</p>#}
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </li>
   {%  endfor %}
 </ul>

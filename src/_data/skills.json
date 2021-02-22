@@ -1,20 +1,518 @@
 [
   {
+    "title": "Archer",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 151"
+    ]
+  },
+  {
+    "title": "Athlete",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 152"
+    ]
+  },
+  {
+    "title": "Blowpipe",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "CJE 91"
+    ]
+  },
+  {
+    "title": "Bodyguard",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "SH 93"
+    ]
+  },
+  {
+    "title": "Buckler",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 152"
+    ]
+  },
+  {
+    "title": "Captain",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PN 99",
+      "WOB 106"
+    ]
+  },
+  {
+    "title": "Chain",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "CJE 90"
+    ]
+  },
+  {
+    "title": "Cloak",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "CA 95"
+    ]
+  },
+  {
+    "title": "Commander",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 153"
+    ]
+  },
+  {
+    "title": "Crossbow",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 153"
+    ]
+  },
+  {
+    "title": "Dirty Fighting",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 154"
+    ]
+  },
+  {
+    "title": "Exotic Thrown Weapons",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "CJE 91"
+    ]
+  },
+  {
+    "title": "Exotic Paired Weapons",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "CJE 91"
+    ]
+  },
+  {
+    "title": "Fencing",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 154"
+    ]
+  },
+  {
+    "title": "Firearms",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 155"
+    ]
+  },
+  {
+    "title": "Hard Martial Arts",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "CJE 88"
+    ]
+  },
+  {
+    "title": "Heavy Weapon",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 155"
+    ]
+  },
+  {
+    "title": "Hand Axe",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "US 96"
+    ]
+  },
+  {
+    "title": "Knife",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 155"
+    ]
+  },
+  {
+    "title": "Panzerhand",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 156"
+    ]
+  },
+  {
+    "title": "Polearm",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 156"
+    ]
+  },
+  {
+    "title": "Pugilism",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 156"
+    ]
+  },
+  {
+    "title": "Rider",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 156"
+    ]
+  },
+  {
+    "title": "Sentry",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "SH 94"
+    ]
+  },
+  {
+    "title": "Shield",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "US 96"
+    ]
+  },
+  {
+    "title": "Sling",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "CE 74"
+    ]
+  },
+  {
+    "title": "Soft Martial Arts",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "CJE 89"
+    ]
+  },
+  {
+    "title": "Staff",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "CJE 89"
+    ]
+  },
+  {
+    "title": "Westling",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "PG 157"
+    ]
+  },
+  {
+    "title": "Waylay",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "LV 81"
+    ]
+  },
+  {
+    "title": "Whip",
+    "type": "martial",
+    "description": "some text",
+    "origin": [
+      "CA 95"
+    ]
+  },
+
+  {
+    "title": "Acrobat",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["US 93"]
+  },
+  {
+    "title": "Alchemy",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["SD 84"]
+  },
+  {
+    "title": "Archaeologist",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["AH 60"]
+  },
+  {
     "title": "Arson",
     "type": "civil",
     "description": "some text",
-    "origin": "RI 82"
+    "origin": ["RI 82"]
   },
   {
-    "title": "Guard",
+    "title": "Artist",
     "type": "civil",
     "description": "some text",
-    "origin": "RI 82"
+    "origin": ["PG 133"]
+  },
+  {
+    "title": "Bard",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["AV 95"]
+  },
+   {
+    "title": "Bomb-making",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["RI 83"]
+  },
+  {
+    "title": "Cao Yao (Healer)",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["CJE 80"]
+  },
+  {
+    "title": "Courtesan",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["VO 92"]
+  },
+  {
+    "title": "Courtier",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["PG 133"]
+  },
+  {
+    "title": "Criminal",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["PG 134","CM 6"]
+  },
+  {
+    "title": "Doctor",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["PG 135","CM 6"]
+  },
+  {
+    "title": "Engineer",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["CA 93"]
+  },
+  {
+    "title": "Falconer",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["US 94"]
+  },
+  {
+    "title": "Fence",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["RI 84"]
+  },
+  {
+    "title": "Feng Shui Shi (Geomancer)",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["CJE 78"]
+  },
+  {
+    "title": "Forger",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["RI 85"]
+  },
+  {
+    "title": "Fortune Telling",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["US 94"]
+  },
+  {
+    "title": "Guide",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["VO 93"]
+  },
+  {
+    "title": "Gwai Liao (Beaurocrat)",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["CJE 79"]
+  },
+  {
+    "title": "Herbalist",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["SD 85"]
+  },
+  {
+    "title": "Hunter",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["PG 136"]
+  },
+  {
+    "title": "Medicine Man",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["IG 79"]
+  },
+  {
+    "title": "Merchant",
+    "type": "civil",
+    "description": "some text",
+    "origin": [
+      "PG 137",
+      "PN 100",
+      "VO 94",
+      "VV 93"
+    ]
+  },
+  {
+    "title": "Missionary",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["CP 86"]
+  },
+  {
+    "title": "Monk",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["CP 87"]
+  },
+  {
+    "title": "Performer",
+    "type": "civil",
+    "description": "some text",
+    "origin": [
+      "PG 139",
+      "US 94",
+      "US 96"
+    ]
+  },
+  {
+    "title": "Politician",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["MR 119"]
+  },
+  {
+    "title": "Priest",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["CA 94", "CP 85"]
+  },
+  {
+    "title": "Professor",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["IC 80"]
+  },
+  {
+    "title": "Rahib (Priest)",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["CE 73"]
+  },
+
+  {
+    "title": "Riverboat Pilot",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["EN 83"]
   },
   {
     "title": "Sailor",
     "type": "civil",
     "description": "some text",
-    "origin": "RI 82"
+    "origin": ["PG 140"]
+  },
+  {
+    "title": "Scholar",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["PG 141", "CE 74"]
+  },
+  {
+    "title": "Servant",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["PG 142"]
+  },
+  {
+    "title": "Shirbaz (Magician)",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["CE 72"]
+  },
+  {
+    "title": "Skald",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["VV 90"]
+  },
+  {
+    "title": "Spy",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["PG 143", "US 96"]
+  },
+  {
+    "title": "Streetwise",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["PG 144"]
+  },
+  {
+    "title": "Teacher",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["SG 83"]
+  },
+  {
+    "title": "Urchin",
+    "type": "civil",
+    "description": "some text",
+    "origin": ["EN 84"]
+  },
+  {
+    "title": "Whaler",
+    "type": "civil",
+    "description": "some text",
+    "origin": [
+      "PN 100",
+      "VV 91",
+      "WOB 107"
+    ]
   }
 ]
