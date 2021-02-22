@@ -1,10 +1,10 @@
 ---
 layout: layouts/post.njk
-title: About Me
+title: About
 templateClass: tmpl-post
 eleventyNavigation:
   key: About
   order: 4
 ---
 
-I am a person that writes stuff.
+It's a pet project about table top rpg rules
