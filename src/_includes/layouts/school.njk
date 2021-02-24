@@ -1,0 +1,30 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-school
+---
+<h1>{{ title }}</h1>
+
+{{ country }}
+{{ weapon }}
+
+<ul>
+  {% for skill in skills %}
+    <li>{{ skill }}</li>
+  {% endfor %}
+</ul>
+
+{{ advantage }}
+
+<ul>
+{% for ShKnack in schoolKnacks %}
+  <li>{{ ShKnack }}</li>
+{% endfor %}
+</ul>
+
+<ul>
+  {% for ShTag in tags %}
+    <li>{{ ShTag }}</li>
+  {% endfor %}
+</ul>
+
+{{ content | safe }}
