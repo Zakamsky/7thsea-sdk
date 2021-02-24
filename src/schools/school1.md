@@ -4,7 +4,8 @@ permalink: "/schools/{{ title | slug }}/"
 origin: PG 146
 country: Castille
 weapon: fencing sword
-skills:
+
+schSkills:
     - Courtier
     - Fencing
 

@@ -4,23 +4,27 @@ templateClass: tmpl-school
 ---
 <h1>{{ title }}</h1>
 
-{{ country }}
-{{ weapon }}
+Origin: {{ origin }}
+Country: {{ country }}
+Weapon: {{ weapon }}
 
+Skills:
 <ul>
-  {% for skill in skills %}
+  {% for skill in schSkills %}
     <li>{{ skill }}</li>
   {% endfor %}
 </ul>
 
-{{ advantage }}
+Advantage: {{ advantage }}
 
+Knacks:
 <ul>
 {% for ShKnack in schoolKnacks %}
   <li>{{ ShKnack }}</li>
 {% endfor %}
 </ul>
 
+Tags:
 <ul>
   {% for ShTag in tags %}
     <li>{{ ShTag }}</li>
