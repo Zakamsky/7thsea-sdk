@@ -1,5 +1,4 @@
 ---
-layout: layouts/post.njk
 title: Aldana
 permalink: "/schools/{{ title | slug }}/"
 origin: PG 146

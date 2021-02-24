@@ -1,4 +1,5 @@
 {
+  "layout": "layouts/school.njk",
   "tags": [
     "schools"
   ]
